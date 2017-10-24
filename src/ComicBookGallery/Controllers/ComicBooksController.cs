@@ -22,8 +22,7 @@ namespace ComicBookGallery.Controllers
                 "Colors: Edgar Delgado",
                 "Letters: Chris Eliopoulos"
             };
-
-
+            
             return View();               
         }
     }
