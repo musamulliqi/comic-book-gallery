@@ -11,7 +11,6 @@ namespace ComicBookGallery.Controllers
     {
         public ActionResult Detail()
         {
-
             var comicBook = new ComicBook()
             {
                 SeriesTitle = "The Amazing Spider-Man",
@@ -26,7 +25,6 @@ namespace ComicBookGallery.Controllers
                     new Artist() { Name = "Chris Eliopoulo", Role = "Letters"},
                 }
             };
-            
             return View(comicBook);               
         }
     }
