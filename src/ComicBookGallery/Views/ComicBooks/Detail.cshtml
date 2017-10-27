@@ -2,6 +2,7 @@
 
 @{
     ViewBag.Title = Model.DisplayText;
+    ViewBag.ShowBackBar = true;
 }
 
 <h2>@Model.DisplayText</h2>
@@ -17,7 +18,6 @@
                 <h5>Artists:</h5>
                 <div>
                     <ul>
-
 
                         @foreach (var artist in Model.Artists)
                         {
